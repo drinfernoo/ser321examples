@@ -47,8 +47,8 @@ public class Fraction {
          int denominator = 3;
 
          if (args.length == 2) {
-            numerator = args[0];
-            denominator = args[1];
+            numerator = Integer.parseInt(args[0]);
+            denominator = Integer.parseInt(args[1]);
          }
 
          // set the values
